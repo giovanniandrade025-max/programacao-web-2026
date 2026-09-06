@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #eef0ff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+.cabecalho {
+    margin: 0;
+    border: 3px solid #3730a3;
+    padding: 30px;
+    background-color: #7300e6;
+    color: white;
+    text-align: center;
+}
+
+.cabecalho h1 {
+    margin: 10px;
+    border: none;
+    padding: 0;
+}
+
+
+.cabecalho p {
+    border: none;
+    padding: 0;
+}
+
+.conteudo {
+    margin-top: 25px;
+    border: 2px solid #c7d2fe;
+    padding: 25px;
+    background-color: white;
+}
+
+.sobre {
+    margin: 0;
+    border: 2px solid #818cf8;
+    padding: 20px;
+    background-color: #f7f1fa;
+}
+
+.sobre h2 {
+    color: #7200cc;
+}
+
+.sobre p {
+    line-height: 1.6;
+}
+
+.destaque {
+    margin: 0;
+    border: none;
+    padding: 0;
+    color: #e91e63;
+    font-weight: bold;
+}
+
+
+.habilidades {
+    margin-top: 25px;
+    border: 2px solid #a78bfa;
+    padding: 20px;
+    background-color: #fff6ff;
+}
+
+.habilidades h2 {
+    color: #7200cc;
+}
+
+.lista-habilidades {
+    margin-top: 10px;
+}
+
+
+.habilidades span {
+    display: inline-block;
+    margin: 5px;
+    border: 2px solid #5b21b6;
+    padding: 8px;
+    background-color: #a020f0;
+    color: white;
+}
+
+.rodape {
+    margin-top: 25px;
+    border: none;
+    padding: 20px;
+    background-color: #27004d;
+    color: white;
+    text-align: center;
+}
