@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dead by daylight</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Section do vídeo introdutório -->
+    <section class="inicio">
+        <video class="video-fullscreen" src="https://assets.deadbydaylight.com/DBD_SUSHI_Hype_Trailer_Cutdown_HD_V_Fb_359a1c5884.mp4" autoplay muted loop preload="metadata"></video>
+        <div class="camada-escura"></div>
+        <div class="informacoes-inicio">
+            <h1 style="font-size: 3rem; margin-bottom: 10px;" >Curiosidades sobre Dead By Daylight!</h1>
+            <p style="font-size: 2rem;">Descubra os segredos que se escondem na névoa...</p>
+        </div>
+
+    </section>
+    <!-- Section dos cards de curiosidade -->
+    <section class="curiosidades-dbd">
+        <h2>Curiosidades!</h2>
+        <div id="estilo-cards">
+            <div class="card">
+                <h3>Origem do Apito</h3>
+                <p>O som do gancho do Sacrifício foi inspirado em sons industriais misturados com metal esticado.</p>
+            </div>
+
+            <div class="card">
+                <h3>Fase Alfa</h3>
+                <p> No início da fase Alfa, os sobreviventes poderiam usar armas para se defender e impedir os assassinos, mas a ideia foi descartada.</p>
+            </div>
+
+            <div class="card">
+                <h3>Visual Spirit</h3>
+                <p>A assassina Spirit originalmente teria um design totalmente nu, que acabou alterado antes do lançamento oficial.</p>
+            </div>
+
+            <div class="card">
+                <h3>Cães em Haddonfield</h3>
+                <p> O mapa de Haddonfield contava com cães que latiam quando alguém se aproximava para ajudar no rastreamento, mas o recurso foi removido.</p>
+            </div>
+
+            <div class="card">
+                <h3>Altura killers</h3>
+                <p>Pyramid Head é considerado o assassino mais alto do jogo, enquanto a Onryō (Sadako) é a única com altura oficialmente classificada como "baixa".</p>
+            </div>
+
+            <div class="card">
+                <h3>Música na RPD</h3>
+                <p> Se você ficar parado nas "salas seguras" (onde ficavam os baús de itens) no mapa da Delegacia de Raccoon City, o jogo tocará a clássica música de salvamento de Resident Evil 2.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section do formulário para enviar mais curiosidades -->
+    <section class="sec-form-curiosidade">
+        <h1>Tem alguma curiosidade a mais? Compartilhe com a gente!</h1>
+        <div class="formulario">
+            <form id="form">
+                <label for="nome-usuario">Nome:</label>
+                <input type="text" placeholder="Digite seu nome..." id="nome-usuario">
+
+                <label for="curiosidade-usuario">Deixe sua curiosidade no campo abaixo:</label>
+                <textarea id="curiosidade-usuario" placeholder="Digite aqui..."></textarea>
+
+                <button type="submit" id="botao">Enviar curiosidade</button>
+            </form>
+        </div>
+    </section>
+<script src="js/script.js"></script>
+</body>
+</html>
