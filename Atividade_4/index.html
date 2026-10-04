@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gastos</title>
+    <link rel="stylesheet" href="style/css.css">
+</head>
+<body>
+    <section>
+        <div class="quadro-form">
+            <h2 class="texto">Cadastro de gastos</h2>
+            <form class="form-gastos">
+                <label for="produto-servico">Produto ou serviço prestado:</label>
+                <input type="text" id="produto-servico">
+
+                <label for="preco">Preço do gasto:</label>
+                <input type="number" step="0.01" min="0" id="preco">
+                    
+                <button type="submit" class="bnt-enviar">Salvar gastos</button>
+                <button type="button" class="bnt-limpar">Limpar gastos</button>
+                
+            </form>
+        </div>
+
+        <div id="lista-gastos"></div>
+    </section>
+</body>
+<script src="js/script.js"></script>
+</html>

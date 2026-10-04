@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(135deg, #1e1e2f, #2d2b42);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.texto {
+    color: black;
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.quadro-form {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 420px;
+}
+
+.form-gastos label {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 8px;
+}
+.form-gastos input {
+    width: 100%;
+}
+
+.form-gastos input:focus {
+    border-color: #6c5ce7;
+    box-shadow: 0 0 8px rgba(108, 92, 231, 0.2);
+}
+
+.bnt-enviar {
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px;
+    background-color: #6c5ce7;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bnt-limpar {
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px;
+    background-color: #6c5ce7;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
